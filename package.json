@@ -1,0 +1,48 @@
+{
+  "name": "@yuniverse/design-system",
+  "version": "0.0.1",
+  "description": "Design System",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "lint": "eslint ./src/**/*.ts",
+    "lint:fix": "eslint ./src/**/*.ts --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jyuunnii/design-system.git"
+  },
+  "author": "jiyun park",
+  "license": "N/A",
+  "bugs": {
+    "url": "https://github.com/jyuunnii/design-system/issues"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "@types/node": "^16.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.28.1",
+    "@typescript-eslint/parser": "^4.28.1",
+    "eslint": "^7.30.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-prettier": "^3.4.0",
+    "jest": "^27.0.6",
+    "prettier": "^2.3.2",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.5"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.(ts|tsx)$": "ts-jest"
+    },
+    "globals": {
+      "ts-jest": {
+        "tsConfig": "tsconfig.json"
+      }
+    },
+    "testRegex": "\\.(test|spec)\\.((js|ts))$",
+    "cacheDirectory": "./.jest/cache"
+  }
+}
