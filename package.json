@@ -6,20 +6,34 @@
     "test": "jest",
     "build": "tsc",
     "lint": "eslint ./src/**/*.ts",
-    "lint:fix": "eslint ./src/**/*.ts --fix"
+    "lint:fix": "eslint ./src/**/*.ts --fix",
+    "storybook": "start-storybook -p 9009"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jyuunnii/design-system.git"
   },
-  "author": "jiyun park",
+  "author": {
+    "name": "jiyun park",
+    "email": "yuunnii315@gmail.com"
+  },
   "license": "N/A",
   "bugs": {
     "url": "https://github.com/jyuunnii/design-system/issues"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
   "devDependencies": {
+    "@storybook/addon-actions": "^6.2.9",
+    "@storybook/addon-controls": "^6.2.9",
+    "@storybook/addon-docs": "^6.2.9",
+    "@storybook/addon-essentials": "^6.2.9",
+    "@storybook/addon-a11y": "^6.3.2",
+    "@storybook/react": "^6.3.2",
     "@types/jest": "^26.0.23",
     "@types/node": "^16.0.0",
     "@typescript-eslint/eslint-plugin": "^4.28.1",
@@ -30,6 +44,7 @@
     "eslint-plugin-prettier": "^3.4.0",
     "jest": "^27.0.6",
     "prettier": "^2.3.2",
+    "storybook": "^6.3.2",
     "ts-jest": "^27.0.3",
     "typescript": "^4.3.5"
   },
