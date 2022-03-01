@@ -1,6 +1,6 @@
 {
   "name": "jyuunnii-design-system",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Design System",
   "scripts": {
     "test": "jest",
